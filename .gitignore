@@ -1,0 +1,32 @@
+# Local environment and Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Personal input and generated output
+*.csv
+!playlist.example.csv
+# Legacy local input from older versions
+keywords.txt
+downloads/
+errors.log
+not_found.txt
+*.link.txt
+*.mp3
+*.aac
+*.acc
+*.flac
+*.wav
+*.m4a
+*.part
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local launcher state
+.chromium-ready
